@@ -4,7 +4,7 @@ from datetime import datetime
 
 with DAG(
     dag_id="crm_sales_etl",
-    start_date=datetime(2024, 1, 1),
+    start_date=datetime(2026, 1, 1),
     schedule=None,
     catchup=False,
     tags=["crm", "duckdb", "dbt"]
