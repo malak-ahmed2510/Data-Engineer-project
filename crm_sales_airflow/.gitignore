@@ -1,0 +1,25 @@
+.git
+.env
+.DS_Store
+airflow_settings.yaml
+__pycache__/
+*.pyc
+astro
+.venv
+.astro/standalone/
+.astro/worktrees/
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+.astro/*.local.yml
+.astro/*.local.yaml
+**/.astro/dbt_metadata.json
+**/.astro/manifest.slim.json
+
+# dbt / data artifacts (re-created by running the pipeline)
+**/target/
+**/dbt_packages/
+**/logs/
+*.duckdb
+*.duckdb.wal

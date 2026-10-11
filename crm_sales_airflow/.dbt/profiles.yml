@@ -1,0 +1,8 @@
+crm_dbt:
+  target: dev
+
+  outputs:
+    dev:
+      type: duckdb
+      path: /usr/local/airflow/include/warehouse/crm.duckdb
+      threads: 4
